@@ -1,0 +1,4 @@
+npm install web3@1.3.5
+npm install solc@0.4.17
+npm install mocha
+npm install ganache-cli

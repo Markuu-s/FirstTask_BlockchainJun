@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/Markuu-s/FirstTask_BlockchainJun/issues"
   },
-  "homepage": "https://github.com/Markuu-s/FirstTask_BlockchainJun#readme"
+  "homepage": "https://github.com/Markuu-s/FirstTask_BlockchainJun#readme",
+  "dependencies": {
+    "ganache-cli": "^6.12.2",
+    "mocha": "^9.1.1",
+    "solc": "^0.4.17",
+    "web3": "^1.3.5"
+  }
 }
