@@ -1,0 +1,19 @@
+{
+  "name": "firsttask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Markuu-s/FirstTask_BlockchainJun.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Markuu-s/FirstTask_BlockchainJun/issues"
+  },
+  "homepage": "https://github.com/Markuu-s/FirstTask_BlockchainJun#readme"
+}
