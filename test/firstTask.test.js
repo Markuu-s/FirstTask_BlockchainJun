@@ -39,5 +39,13 @@ describe('Test operation of summation', () => {
         assert.equal(res, resContract)
     })
 
+    it('Small number for test', async () => {
+        for (let i = 0; i < 10; ++i) {
+            for (let j = 0; j < 10; ++j) {
+                const resContract = await firstTask.methods.sum(i.toString(), j.toString()).call({ from: accounts[0] })
+                assert.equal((i + j).toString(), resContract)
+            }
+        }
+    })
 
 })
